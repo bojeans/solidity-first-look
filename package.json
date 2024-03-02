@@ -2,7 +2,7 @@
   "name": "solidity-first-look",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "deploy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . SimpleStorage.sol"
@@ -10,8 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "ethers": "5.7.2",
     "fs-extra": "^11.2.0",
-    "solc": "^0.8.24"
+    "solc": "^0.8.19"
   }
 }
